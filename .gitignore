@@ -1,0 +1,26 @@
+# Python
+tools/.venv/
+tools/__pycache__/
+tools/**/*.pyc
+
+# Секреты
+tools/.env
+.env
+
+# Содержимое raw/ (структура папок сохраняется через .gitkeep)
+# По умолчанию raw-источники НЕ коммитятся — они тяжёлые и часто приватные.
+# Если хочешь коммитить транскрипты/методички — сними эти строки точечно.
+vault/raw/*/*
+!vault/raw/*/.gitkeep
+
+# Obsidian workspace state (персональное)
+vault/.obsidian/workspace.json
+vault/.obsidian/workspace-mobile.json
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# IDE
+.idea/
+.vscode/
